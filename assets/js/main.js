@@ -47,5 +47,5 @@ loadMoreButton.addEventListener('click', () => {
 })
 
 details.addEventListener('click',()=>{
-    window.location='Pokemon.html'
+    window.location='pokemon-details.html'
 })

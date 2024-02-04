@@ -41,13 +41,11 @@ function loadPokemonDetail(offset,limit){
                         </ul>
                     </div>
                     <div class="descriptionContent">
-                        <ul class="descriptionList">
-                            
+                        <ul class="descriptionList"> 
                             <li>${pokemon.ability}</li>
                             <li>${pokemon.height}</li>
                             <li>${pokemon.weight}</li>
                             <li>${pokemon.experience}</li>
-                    
                         </ul>
                     </div>
                 </div>

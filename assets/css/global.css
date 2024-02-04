@@ -1,0 +1,35 @@
+:root{
+    --defaultFontSize: 1rem;
+}
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsla(48, 100%, 50%, .7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+    overflow-y: auto;
+    text-align: center;
+    color: hsl(221, 99%, 58%);
+    font-weight: 700;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
